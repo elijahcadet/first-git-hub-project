@@ -12,11 +12,28 @@ nav{
   justify-content: space-between; 
   align-items: center;
   padding: 0 16px;
-  color: #cafdff;
+  background-color: #cafdff;
+}
+
+header{
+  background-color: #eadcff;  
+  height: calc(100vh- 70px);
+  padding: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1{
+ font-size: 72px;
+}
+
+.subheader{
+   font-size: 36px; 
 }
 
 a{
- color: black;
+ color: #000;
  font-size: 24px;
  font-weight: 700;
 }
@@ -28,6 +45,7 @@ a{
 ul{
   display: flex;  
 }
+
 
 li{
  list-style-type: none;
